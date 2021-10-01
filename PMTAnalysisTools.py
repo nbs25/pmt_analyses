@@ -15,7 +15,7 @@ class PMT():
         
     def GetPosition(self):
         
-        return(x,y,z)
+        return(self.x,self.y,self.z)
 
 
 class Ophit:
