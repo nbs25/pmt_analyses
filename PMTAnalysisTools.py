@@ -83,11 +83,9 @@ class Event():
         self.run             = parameters[0]
         self.event           = parameters[1]
         self.timestamp       = parameters[2]
-        self.nflashes        = parameters[3]
-        self.nophits         = parameters[4]
-        self.beam_gate_start = parameters[5]
-        self.beam_gate_width = parameters[6]
-        self.beam_type       = parameters[7]
+        self.beam_gate_start = parameters[3]
+        self.beam_gate_width = parameters[4]
+        self.beam_type       = parameters[5]
         
     def AddFlash(self,flash):
         
